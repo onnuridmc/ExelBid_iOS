@@ -97,6 +97,12 @@
 /** @name Loading an Interstitial Ad */
 
 /**
+ Coppa (default : 0)
+ */
+
+@property (nonatomic, copy) NSString *coppa;
+
+/**
  * Begins loading ad content for the interstitial.
  *
  * You can implement the `interstitialDidLoadAd:` and `interstitialDidFailToLoadAd:` methods of

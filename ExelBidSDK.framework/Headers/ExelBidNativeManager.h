@@ -69,6 +69,13 @@ NSError *error);
  */
 + (void)testing:(BOOL)testing;
 
+/**
+ Coppa (default : 0)
+ */
+
++ (void)coppa:(NSString *)coppa;
+
+
 
 + (void)initNativeAdWithAdUnitIdentifier:(NSString *)identifier adViewClass:(Class)adViewClass;
 

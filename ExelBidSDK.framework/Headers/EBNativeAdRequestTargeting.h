@@ -75,5 +75,12 @@
  */
 @property (nonatomic, assign, getter = isTesting) BOOL testing;
 
+/**
+ Coppa (default : 0)
+ */
+
+@property (nonatomic, copy) NSString *coppa;
+
+
 
 @end

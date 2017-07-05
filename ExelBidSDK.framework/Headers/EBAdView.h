@@ -100,6 +100,15 @@ typedef enum
 /** @name Loading a Banner Ad */
 
 /**
+ Coppa (default : 0)
+ */
+
+@property (nonatomic, copy) NSString *coppa;
+
+
+
+
+/**
  * Requests a new ad from the ExelBid ad server.
  *
  * If the ad view is already loading an ad, this call will be ignored. You may use `forceRefreshAd`

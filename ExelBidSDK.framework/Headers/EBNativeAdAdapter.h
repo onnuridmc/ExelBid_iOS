@@ -167,6 +167,7 @@
  * and the user has tapped the icon.
  */
 - (void)displayContentForDAAIconTap;
+- (void)displayContentForDAAIconTap2:(NSString *)url;
 
 /**
  * Return your ad's privacy information icon view.
