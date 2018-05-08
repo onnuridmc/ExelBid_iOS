@@ -106,6 +106,11 @@ typedef enum
 @property (nonatomic, copy) NSString *coppa;
 
 
+/**
+ FullSizeWebView (default : NO)
+ */
+
+@property (nonatomic, assign, getter = isFullWebView) BOOL fullWebView;
 
 
 /**
