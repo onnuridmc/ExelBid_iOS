@@ -12,9 +12,9 @@ https://github.com/onnuridmc/ExelBid_iOS
 LICENSE
 }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.author             = { "ONNURIDMC" => "dev@onnuridmc.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/onnuridmc/ExelBid_iOS.git", :tag => "#{s.version}" }
 
 
