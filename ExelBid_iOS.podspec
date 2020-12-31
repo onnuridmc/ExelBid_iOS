@@ -16,8 +16,11 @@ LICENSE
   s.author             = { "ONNURIDMC" => "dev@onnuridmc.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/onnuridmc/ExelBid_iOS.git", :tag => "#{s.version}" }
-
-
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    
   s.ios.vendored_frameworks = 'ExelBidSDK.framework'
   s.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreLocation', 'CoreGraphics', 'AdSupport', 'CoreMedia','MediaPlayer','MessageUI','QuartzCore','StoreKit','WebKit'
 
