@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ExelBid_iOS"
-  s.version      = "1.3.5"
+  s.version      = "1.3.6"
   s.summary      = "ExelBidSDK.framework"
   s.homepage     = "https://github.com/onnuridmc/ExelBid_iOS"
   s.license      = { :type => "Commercial",
@@ -19,7 +19,7 @@ LICENSE
 
 
   s.ios.vendored_frameworks = 'ExelBidSDK.framework'
-  s.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreLocation', 'CoreGraphics', 'AdSupport', 'CoreMedia','MediaPlayer','MessageUI','QuartzCore','StoreKit'
+  s.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreLocation', 'CoreGraphics', 'AdSupport', 'CoreMedia','MediaPlayer','MessageUI','QuartzCore','StoreKit','WebKit'
 
   s.requires_arc = true
 end
