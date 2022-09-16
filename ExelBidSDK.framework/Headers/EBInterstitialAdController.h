@@ -164,6 +164,11 @@
  */
 + (NSMutableArray *)sharedInterstitialAdControllers;
 
+- (NSString *)getDspCampaignId;
+- (NSString *)getDspCreativeId;
+- (NSString *)getCampaignId;
+- (NSString *)getCreativeId;
+
 @end
 
 #pragma mark -
@@ -264,5 +269,11 @@
  * @param interstitial The interstitial ad object sending the message.
  */
 - (void)interstitialDidReceiveTapEvent:(EBInterstitialAdController *)interstitial;
+
+@end
+
+@protocol EBInterstitialAdControllerOverrideDelegate
+
+- (BOOL)interstitialShouldOverrideClick:(EBInterstitialAdController *)interstitial originalURL:(NSURL *)url;
 
 @end

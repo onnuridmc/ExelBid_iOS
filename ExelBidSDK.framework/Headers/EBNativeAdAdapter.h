@@ -66,6 +66,8 @@
  */
 - (void)nativeAdDidClick:(id<EBNativeAdAdapter>)adAdapter;
 
+- (BOOL)nativeAdOverrideClick:(id<EBNativeAdAdapter>)adAdapter originalURL:(NSURL *)URL;
+
 @end
 
 /**

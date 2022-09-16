@@ -12,6 +12,7 @@
 #import <ExelBidSDK/EBServerAdPositioning.h>
 
 @class EBNativeAdRequestTargeting;
+@class EBNativeAd;
 @protocol EBCollectionViewAdPlacerDelegate;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -384,5 +385,11 @@
  * @param placer The collection view ad placer that contains the ad causing the app to background.
  */
 -(void)nativeAdWillLeaveApplicationFromCollectionViewAdPlacer:(EBCollectionViewAdPlacer *)placer;
+
+@end
+
+@protocol EBCollectionViewAdPlacerOverrideDelegate
+
+- (BOOL)overrideClickForCollectionViewAdPlacer:(EBCollectionViewAdPlacer *)placer nativeAd:(EBNativeAd *)nativeAd originalURL:(NSURL *)URL;
 
 @end

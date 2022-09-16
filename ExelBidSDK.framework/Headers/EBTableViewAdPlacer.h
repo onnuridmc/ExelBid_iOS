@@ -12,6 +12,7 @@
 #import <ExelBidSDK/EBServerAdPositioning.h>
 
 @class EBNativeAdRequestTargeting;
+@class EBNativeAd;
 @protocol EBTableViewAdPlacerDelegate;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -428,5 +429,11 @@
  * @param placer The table view ad placer that contains the ad causing the app to background.
  */
 -(void)nativeAdWillLeaveApplicationFromTableViewAdPlacer:(EBTableViewAdPlacer *)placer;
+
+@end
+
+@protocol EBTableViewAdPlacerOverrideDelegate
+
+- (BOOL)overrideClickForTableViewAdPlacer:(EBTableViewAdPlacer *)placer nativeAd:(EBNativeAd *)nativeAd originalURL:(NSURL *)URL;
 
 @end

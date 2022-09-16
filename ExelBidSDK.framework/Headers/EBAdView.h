@@ -232,6 +232,11 @@ typedef enum
  */
 - (void)startAutomaticallyRefreshingContents;
 
+- (NSString *)getDspCampaignId;
+- (NSString *)getDspCreativeId;
+- (NSString *)getCampaignId;
+- (NSString *)getCreativeId;
+
 @end
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -282,7 +287,7 @@ typedef enum
  *
  * @param view The ad view sending the message.
  */
-- (void)adViewDidFailToLoadAd:(EBAdView *)view;
+- (void)adViewDidFailToLoadAd:(EBAdView *)view statusCode:(NSInteger)statusCode;
 
 /** @name Detecting When a User Interacts With the Ad View */
 
@@ -318,5 +323,10 @@ typedef enum
  */
 - (void)willLeaveApplicationFromAd:(EBAdView *)view;
 
+@end
+
+@protocol EBAdViewOverrideDelegate
+
+- (BOOL)shouldOverrideClick:(NSURL *)url;
 
 @end

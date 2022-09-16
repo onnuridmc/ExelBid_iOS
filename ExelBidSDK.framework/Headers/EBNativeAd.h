@@ -51,6 +51,11 @@
 
 - (void)trackMetricForURL:(NSURL *)URL;
 
+- (NSString *)getDspCampaignId;
+- (NSString *)getDspCreativeId;
+- (NSString *)getCampaignId;
+- (NSString *)getCreativeId;
+
 @end
 
 
@@ -90,5 +95,11 @@
  * @return A view controller that should be used for presenting modal content.
  */
 - (UIViewController *)viewControllerForPresentingModalView;
+
+@end
+
+@protocol EBNativeAdOverrideDelegate
+
+- (BOOL)overrideClickForNativeAd:(EBNativeAd *)nativeAd originalURL:(NSURL *)URL;
 
 @end
