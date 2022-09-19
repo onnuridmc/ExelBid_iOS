@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ExelBid_iOS"
   s.version      = "1.3.10"
-  s.summary      = "ExelBidSDK.framework"
+  s.summary      = "ExelBidSDK.xcframework"
   s.homepage     = "https://github.com/onnuridmc/ExelBid_iOS"
   s.license      = { :type => "Commercial",
 :text => <<-LICENSE
@@ -21,7 +21,7 @@ LICENSE
   }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     
-  s.ios.vendored_frameworks = 'ExelBidSDK.framework'
+  s.ios.vendored_frameworks = 'ExelBidSDK.xcframework'
   s.frameworks = 'Foundation', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreLocation', 'CoreGraphics', 'AdSupport', 'CoreMedia','MediaPlayer','MessageUI','QuartzCore','StoreKit','WebKit'
 
   s.requires_arc = true
