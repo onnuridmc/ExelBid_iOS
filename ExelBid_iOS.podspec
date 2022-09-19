@@ -13,7 +13,7 @@ LICENSE
 }
 
   s.ios.deployment_target = '9.0'
-  s.author             = { "ONNURIDMC" => "dev@onnuridmc.com" }
+  s.author             = { "Motiv Intelligence" => "dev@motiv-i.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/onnuridmc/ExelBid_iOS.git", :tag => "#{s.version}" }
   s.pod_target_xcconfig = {
