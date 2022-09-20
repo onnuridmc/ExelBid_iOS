@@ -327,6 +327,6 @@ typedef enum
 
 @protocol EBAdViewOverrideDelegate
 
-- (BOOL)shouldOverrideClick:(NSURL *)url;
+- (BOOL)shouldOverrideClick:(EBAdView *)view originalURL:(NSURL *)url;
 
 @end
