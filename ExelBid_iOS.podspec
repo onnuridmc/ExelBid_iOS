@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ExelBid_iOS"
-  s.version      = "1.3.13"
+  s.version      = "1.3.14"
   s.summary      = "ExelBidSDK.xcframework"
   s.homepage     = "https://github.com/onnuridmc/ExelBid_iOS"
   s.license      = { :type => "Commercial",
