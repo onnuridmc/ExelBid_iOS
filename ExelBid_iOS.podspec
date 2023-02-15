@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "ExelBid_iOS"
-  s.version      = "1.3.15"
+  s.version      = "1.3.16"
   s.summary      = "ExelBidSDK.xcframework"
   s.homepage     = "https://github.com/onnuridmc/ExelBid_iOS"
   s.license      = { :type => "Commercial",
 :text => <<-LICENSE
-All text and design is copyright 2014-2016 onnuridmc, Inc.
+All text and design is copyright 2014-2023 onnuridmc, Inc.
 All rights reserved.
 https://github.com/onnuridmc/ExelBid_iOS
 LICENSE
