@@ -473,7 +473,7 @@ Exelbid iOS SDK를 이용한 광고 연동시 Mediation 연동의 경우, 각 �
 
 ## 샘플 안내
 자세한 내용은 아래 샘플코드를 참고해주세요.  
-[https://github.com/onnuridmc/ExelBid-iOS-SDK](https://github.com/onnuridmc/ExelBid-iOS-SDK)
+[https://github.com/onnuridmc/ExelBid-iOS-SDK/tree/master/sample/ExelBidSample/ExelBidSample/Contollers/mediation](https://github.com/onnuridmc/ExelBid-iOS-SDK/tree/master/sample/ExelBidSample/ExelBidSample/Contollers/mediation)
 
 ## 외에 Exelbid 및 타사 광고 SDK 연동은 각각의 해당 가이드를 참조해 설정한다.
 * AdMob - [https://developers.google.com/admob/ios/quick-start?hl=ko](https://developers.google.com/admob/ios/quick-start?hl=ko)
