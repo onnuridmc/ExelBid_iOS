@@ -15,6 +15,9 @@
 
 ## Version History
 
+**Version 1.3.17**
+- Native Ad tracking 정책 통일
+
 **Version 1.3.16**
 - _framework -> 미디에이션 기능 적용 (Exelbid, Adfit, Admob, Fan)_
 
