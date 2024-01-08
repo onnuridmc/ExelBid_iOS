@@ -14,6 +14,8 @@
 * [미디에이션](#미디에이션)
 
 ## Version History
+**Version 1.3.18**
+- Architecture 설정 변경 (arm64, x86_64)
 
 **Version 1.3.17**
 - Native Ad tracking 정책 통일
